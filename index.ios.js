@@ -4,17 +4,17 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View
-} from 'react-native';
+} from "react-native";
 
 export default class rando extends Component {
-  render() {
-    return (
+    render() {
+        return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to Rando!
@@ -23,27 +23,27 @@ export default class rando extends Component {
           To get started, select your contacts, greetings, and set the frequency for texting each contact
         </Text>
       </View>
-    );
-  }
+        );
+    }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    container: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#F5FCFF"
+    },
+    welcome: {
+        fontSize: 20,
+        textAlign: "center",
+        margin: 10
+    },
+    instructions: {
+        textAlign: "center",
+        color: "#333333",
+        marginBottom: 5
+    }
 });
 
-AppRegistry.registerComponent('rando', () => rando);
+AppRegistry.registerComponent("rando", () => rando);
