@@ -8,6 +8,7 @@
     "lint": "eslint --fix *.js"
   },
   "dependencies": {
+    "eslint-plugin-react-native": "^2.2.1",
     "react": "~15.4.0",
     "react-native": "0.41.2",
     "react-native-unified-contacts": "^1.1.0",
